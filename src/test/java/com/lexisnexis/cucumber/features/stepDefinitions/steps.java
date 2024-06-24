@@ -256,7 +256,6 @@ public class steps extends BaseTest {
 
     @When("I click on {string} in home page")
     public void i_click_on_cookies_settings_in_home_page(String cookieSettingsText) throws IOException {
-        getScreenshot(cookieBannerPage.getCookieBanner());
         Assert.assertTrue(cookieBannerPage.getCookieSettingsButtonText().contains(cookieSettingsText));
         cookieBannerPage.clickCookieSettingsButton();
     }

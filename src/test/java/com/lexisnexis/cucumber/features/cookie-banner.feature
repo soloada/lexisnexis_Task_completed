@@ -1,6 +1,6 @@
 @CTC
 @ALL
-Feature: As a user I should see cookie preferences banner so that I can accept or decline the use of cookies
+Feature: As a user I should be able to see cookie preferences banner so that I can accept or decline the use of cookies
 
   Background:
     Given I navigate to home page "https://risk.lexisnexis.co.uk/"
